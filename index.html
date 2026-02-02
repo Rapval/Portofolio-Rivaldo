@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rivaldo — Technical Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="/favico.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="matrix"></div>
+
+  <div class="app-container">
+    <div class="card">
+
+      <header>
+        <h1>Rivaldo Portfolio</h1>
+        <h2>System Architect for Web3</h2>
+      </header>
+
+      <section>
+        <h3>Focus</h3>
+        <ul>
+          <li>Secure system architecture</li>
+          <li>AI as middleware (not decision-maker)</li>
+          <li>Privacy-aware data design</li>
+          <li>Web3 read-only integration</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Skillset</h3>
+        <ul>
+          <li>Python (FastAPI, system logic)</li>
+          <li>JavaScript (frontend logic, Web3 read-only)</li>
+          <li>System architecture & data boundaries</li>
+          <li>Web3 integration</li>
+          <li>Privacy-aware design</li>
+          <li>AI as evaluation middleware</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Technical Proof</h3>
+        <p class="desc">
+          This demo shows a privacy-aware system flow.
+          Raw user data stays on the server.
+          The UI only receives a controlled summary.
+        </p>
+
+        <div class="form">
+          <input id="amount" type="number" placeholder="Amount" />
+          <input id="category" type="text" placeholder="Category" />
+          <button onclick="sendData()">Test System</button>
+        </div>
+
+        <pre id="result">Result will appear here</pre>
+      </section>
+
+      <section>
+        <h3>System Principles</h3>
+        <blockquote>
+          “A good system helps users pause and evaluate,
+          not react impulsively.”
+        </blockquote>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="matrix.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
